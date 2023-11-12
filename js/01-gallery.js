@@ -1,6 +1,4 @@
 import { galleryItems } from './gallery-items.js';
-// Change code below this line
-console.log(galleryItems);
 
 const galleryContainer = document.querySelector('.gallery');
 const itemsMarkup = createGalleryItemsMarkup(galleryItems);
@@ -24,7 +22,6 @@ function createGalleryItemsMarkup(items) {
     })
     .join('');
 }
-
 
 const instance = basicLightbox.create(
   `
